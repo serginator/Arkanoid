@@ -258,7 +258,6 @@ var arkanoid = (function(){
             clear();
             if(!gameOver){
                 bufferctx.fillStyle = ballcolor;
-                //bufferctx.drawImage(ball, x, y, d, d);
                 circle(x, y, d);
 		
                 //move the paddle if left or right is pressed
